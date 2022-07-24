@@ -8,7 +8,7 @@
 #container-all-section {
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 85vh;
     background-color: #02084D;
     width: 100%;
     clip-path: polygon(100% 0, 100% 21%, 100% 33%, 84% 100%, 25% 100%, 0 100%, 0 0);
@@ -94,7 +94,7 @@
 }
 
 #text-description{
-    width: 405px;
+    width: 495px;
     height: 100px;
     padding-top: 10px;
     padding-left: 3px;

@@ -11,7 +11,7 @@
     height: 80vh;
     background-color: #02084D;
     width: 100%;
-    clip-path: polygon(0 0, 100% 0, 81% 100%, 0% 100%);
+    clip-path: polygon(100% 0, 100% 21%, 100% 33%, 84% 100%, 25% 100%, 0 100%, 0 0);
 
 
   }
@@ -66,8 +66,8 @@
 }
 
 .small-input{
-    width: 200px;
-    height: 30px;
+  width: 280px;
+  height: 35px;
 
 }
 

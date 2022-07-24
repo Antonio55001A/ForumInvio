@@ -214,7 +214,7 @@
 @media only screen and (max-width: 590px){
 
   #container-all-section{
-    height: 100vh;
+    height: 130vh;
     clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 95%, 70% 100%, 30% 100%, 0 95%, 0% 30%);
 
   }

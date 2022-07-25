@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
 
@@ -17,8 +21,8 @@
 
         <div id="title-contact-me">
 
-            <h1 id="title-contact">CONTACT </h1>
-            <H1 id="me"> ME</H1>
+            <h1 id="title-contact" class="animate__animated animate__pulse">CONTACT </h1>
+            <H1 id="me" class="animate__animated animate__pulse" > ME</H1>
 
         </div>
 
@@ -29,13 +33,13 @@
 
                 <div id="img-joestick-left" >
 
-                    <img type="image" src="joestick(500x500).png" alt="image of joestick" id="img-josestick">
+                    <img class="animate__animated animate__fadeIn" type="image" src="joestick(500x500).png" alt="image of joestick" id="img-josestick">
                     <img type="image" src="joestick-verticale.png" alt="image of joestick" id="imgdue-josestick">
 
 
                 </div>
 
-                <div id="contact-forum">
+                <div id="contact-forum" class="animate__animated animate__fadeInRight">
                     <form action="https://formsubmit.co/d1cb783f9b4c43810426cc56e5c4c23b " method="post">
 
                         <!-- <input type="hidden" name="_captcha" value="true">  -->
@@ -45,13 +49,13 @@
                     <input type="hidden" name="_template" value="table">
 
                     <div class="container">
-                        <input class="small-input input" type="text" placeholder=" your name" name="name" id="name">
-                        <input class="small-input input" type="tel" placeholder=" your number" name="telephone" id="telephone"pattern="[0-9]{3}[0-9]{4}[0-9]{3}">
+                        <input class="small-input input" type="text" placeholder=" your name" name="name" id="name" required>
+                        <input class="small-input input" type="tel" placeholder=" your number" name="telephone" id="telephone"pattern="[0-9]{3}[0-9]{4}[0-9]{3}" required>
                     </div>
 
                     <div class="container">
-                        <input class="small-input input" type="email" placeholder=" your email" id="email" name="email">
-                        <input class="small-input input"  type="text" placeholder=" your subject"id="subject" name="subject">
+                        <input class="small-input input" type="email" placeholder=" your email" id="email" name="email" required>
+                        <input class="small-input input"  type="text" placeholder=" your subject"id="subject" name="subject" required>
                     </div>
 
                     <div id="container-due">

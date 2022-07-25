@@ -214,18 +214,24 @@
 @media only screen and (max-width: 590px){
 
   #container-all-section{
-    height: 130vh;
+    height: 100vh;
     clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 95%, 70% 100%, 30% 100%, 0 95%, 0% 30%);
 
   }
   #title-contact-me{
-    font-size: 36px;
-    flex-direction: column;
+    font-size: 28px;
+    flex-direction: row;
     align-items: center;
+    margin-top: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    height: 150px;
+    margin-top: 20px;
+    
   }
 
   #container-forum{
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .container{
     display: flex;
@@ -251,4 +257,5 @@
   #submit{
     margin-top: 10px;
   }
+
 }
